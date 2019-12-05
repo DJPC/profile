@@ -2,8 +2,8 @@
 
 
 body {
-  background-color: rgb(209, 209, 209);
-  color: grey;
+  background-color: #fef6fb;
+  color: white;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -11,23 +11,42 @@ body {
 }
 
 h1 {
-  color: black;
-  font-size: 80px;
+  color: white;
+  font-size: 50px;
   font-weight: bold;
 }
 
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
+  color: #f4f4f4;
 }
 
+
 a {
-  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.button {
+  font-size: 16px;
+  background-color: #c0475f;
+  padding: 14px 40px;
+  border-radius: 8px;
+  width: 250px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button a {
+  color: white;
+  font-size: 20px;
+  border: none;
+
 }
 
 .img-circle {
@@ -39,12 +58,26 @@ a:hover {
 
 
 .card{
-  border-radius: 5%;
-  background-color: white;
-  padding: 30px;
-  margin: 50px;
+  border-radius: 5px;
+  background-color: #484c7f;
+  padding: 25px;
+  margin: 40px;
   border: 1px solid lightgrey;
   box-shadow: 2px 2px 3px grey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline a {
+  font-size: 40px;
+  color: white;
+
+
 }
 
 @media (max-width: 960px) {
